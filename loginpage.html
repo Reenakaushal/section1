@@ -3,16 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=
-    
-    
     , initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+
+    .card{
+        /* border: 2px solid red; */
+        width: 20%;
+        padding: 50px;
+        box-sizing: border-box;
+        box-shadow: 5px 5px 5px 0px #00000075;
+        border-radius: 5px;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        
+    }
+    .card-title, .card-subtitle{
+
+        text-align: center;
+
+    }
+    
+    .text-input{
+        width: 100%;
+        display: block;
+        box-sizing: border-box;
+
+    }
+
+    .text-input{
+        margin-bottom: 20px;
+        padding: 5px 10px;
+    }
+
+    .mybtn{
+        padding: 10px 15px;
+        background-color: crimson;
+        color: white;
+        border: none;
+        border: 5px;
+    }
+    </style>
+
+
+
 </head>
 <body>
 
 
-     <div>
+     <div class=" card">
+     
+       <h3 class="card-title">Welcome Back</h3>
+       <p class="card-subtitle">continue your journey with us</p>
+       
+       <form>
+            
+            <label> Email Address</label>
+            <input class="text-input" type="email">
         
+            <label>Password </label>
+            <input class="text-input" type="password">
+
+            <button class="mybtn">Submit</button>
+        
+        </form>
+    
+
+
      </div>
 
     
